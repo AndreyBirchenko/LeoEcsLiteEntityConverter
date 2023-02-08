@@ -1,0 +1,12 @@
+{
+  "name": "com.anbi.leoecslite.entityconverter",
+  "version": "1.0.0",
+  "displayName": "Leo Ecs Lite Entity Converter",
+  "description": "Leo Ecs Lite Entity Converter",
+  "unity": "2020.3",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Leopotam/ecslite-di.git"
+  }
+}
