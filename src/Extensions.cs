@@ -9,7 +9,7 @@ namespace AB_Utility.FromSceneToEntityConverter
         public static IEcsSystems ConvertScene(this IEcsSystems systems)
         {
             var world = systems.GetWorld();
-            var containers = UnityEngine.Object.FindObjectsOfType<ComponentsContainer>();
+            var containers = UnityEngine.Object.FindObjectsOfType<ComponentsContainer>(true);
 
             for (int i = 0; i < containers.Length; i++)
             {
