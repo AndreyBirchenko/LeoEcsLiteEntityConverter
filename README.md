@@ -1,4 +1,6 @@
 # LeoEcsLite Entity Converter
+*Read this in other languages: [Русский](https://github.com/AndreyBirchenko/LeoEcsLiteEntityConverter/blob/master/README.md), [English](https://github.com/AndreyBirchenko/LeoEcsLiteEntityConverter/blob/master/README_en.md)*
+
 Обеспечивает автоматическое создание сущностей с компонентами через инспектор.
 
 > Проверено на Unity 2020.3 и содержит asmdef-описания для компиляции в виде отдельных сборок и уменьшения времени рекомпиляции основного проекта.
