@@ -4,6 +4,8 @@
 Provides automatic creation of entities with components through the inspector.
 
 > Tested on Unity 2020.3 and contains asmdef descriptions for compilation in the form of separate assemblies and reducing the recompilation time of the main project.
+> 
+> For feedback https://t.me/AndreyBirchenko
 
 # Installation
 **Attention!** For this extension to work, first install [LeoEcsLite](https://github.com/Leopotam/ecslite)
