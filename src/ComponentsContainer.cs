@@ -1,7 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+
+using UnityEngine;
 
 namespace AB_Utility.FromSceneToEntityConverter
 {
+    [DisallowMultipleComponent]
     public class ComponentsContainer : MonoBehaviour
     {
         [SerializeField] private BaseConverter[] _converters;
@@ -9,7 +12,7 @@ namespace AB_Utility.FromSceneToEntityConverter
         public BaseConverter[] Converters => _converters;
         public bool DestroyAfterConversion => _destroyAfterConversion;
 
-        private void OnValidate()
+        internal void GetConverters()
         {
             _converters = GetComponents<BaseConverter>();
         }
