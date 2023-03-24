@@ -56,4 +56,10 @@ systems
 
 ![alt text](https://github.com/AndreyBirchenko/LeoEcsLiteEntityConverter/blob/master/img/2.jpg)
 
+# Конвертация по ходу исполнения программы
+Вы можете конвертировать объекты при создании
+```c#
+    var objectView = EcsConverter.InstantiateAndCreateEntity(ObjectPrefab, _ecsWorld);
+```
+Для этого на префабе который вы собираетесь конвертировать должен быть `ComponentsContainer`
 #

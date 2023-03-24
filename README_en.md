@@ -55,5 +55,10 @@ If you want all unnecessary components to be removed from the game object after 
 Now when you start the project, an entity with the `TestComponent` component and the `Value` value from the inspector will be automatically created
 
 ![alt text](https://github.com/AndreyBirchenko/LeoEcsLiteEntityConverter/blob/master/img/2.jpg)
-
+# Conversion during the execution of the program
+You can convert objects when instantiating
+```c#
+    var object View = Epsconverter.Instantiate And Create Entity(Object Prefab, _eco World);
+```
+To do this, the prefab that you are going to convert must have a `ComponentsContainer`
 #
