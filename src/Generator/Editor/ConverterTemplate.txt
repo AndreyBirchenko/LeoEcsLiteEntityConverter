@@ -1,0 +1,12 @@
+using AB_Utility.FromSceneToEntityConverter;
+using AB_Utility.LeoEcsLiteEntityConverter.Generator.Runtime;
+using #COMPONENT_NAMESPACE#;
+
+namespace ComponentConverters
+{
+    [ComponentConverter(typeof(#COMPONENT_TYPE#))]
+    public class #COMPONENT_TYPE#Converter : ComponentConverter<#COMPONENT_TYPE#>
+    {
+        
+    }
+}
