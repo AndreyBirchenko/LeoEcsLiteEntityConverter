@@ -56,7 +56,7 @@ namespace AB_Utility.FromSceneToEntityConverter
             return obj;
         }
 
-        internal static void ConvertContainer(ComponentsContainer container, EcsWorld world)
+        public static void ConvertContainer(ComponentsContainer container, EcsWorld world)
         {
             var destroyAfterConversion = container.DestroyAfterConversion;
             var entity = world.NewEntity();
@@ -79,7 +79,7 @@ namespace AB_Utility.FromSceneToEntityConverter
             }
         }
 
-        private static void ConvertObject(GameObject obj, EcsWorld world)
+        public static void ConvertObject(GameObject obj, EcsWorld world)
         {
             var container = obj.GetComponent<ComponentsContainer>();
 #if DEBUG
